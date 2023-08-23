@@ -1,3 +1,16 @@
-p {
+/* To style all the classes with error class do like so: 
+.error{
     color: red;
+} */
+/* To style just one specific tag (such as p tag) with a specific class */
+p.error{
+    color: red;
+}
+
+p.success{
+    color: green;
+}
+/* Looks for paragraph tags that have both of these classes */
+p.success.feedback{
+    border: 1px dashed green;
 }
