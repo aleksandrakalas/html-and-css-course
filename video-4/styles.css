@@ -27,3 +27,8 @@ li {
     list-style-type: none;
     text-shadow: 2px 2px lightgray;
 }
+div {
+    border: 2px solid crimson;
+    margin: 20px;
+    padding: 20px;
+}
