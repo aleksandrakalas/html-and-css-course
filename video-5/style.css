@@ -14,3 +14,20 @@ p.success{
 p.success.feedback{
     border: 1px dashed green;
 }
+#content{
+    background-color: lightgray ;
+    padding: 20px;
+} 
+/* target specifically the p tag inside of the div tag */
+div p{
+    color: purple;
+}
+/* attribute selector */
+a[href="https://www.thenetninja.co.uk"]{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* could also put just as href, or as href*="thenetninja" (it will look for anything that includes that text, if you want to specify something that ends with a specific text use href$= */
